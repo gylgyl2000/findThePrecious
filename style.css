@@ -1,12 +1,118 @@
+@font-face {
+    font-family: 'Aniron Regular';
+    src: url(font/Aniron-7BaP.ttf);
+}
+
+@font-face {
+    font-family: 'Aniron Bold';
+    src: url(font/AnironBold-mL9P.ttf);
+}
+
+@font-face {
+    font-family: 'AnironC Bold';
+    src: url(font/AnironcBold-PKwr.ttf);
+}
+
+
+@font-face {
+    font-family: 'AnironC Regular';
+    src: url(font/Anironc-d9DK.ttf);
+}
+
+@font-face {
+    font-family: 'Party Business Regular';
+    src: url(font/PartyBusiness-4B0K.ttf);
+}
+
+@font-face {
+    font-family: 'Tengwar Annatar Regular';
+    src: url(font/tngan.ttf);
+}
+
+@font-face {
+    font-family: 'Tengwar Annatar Bold';
+    src: url(font/tnganb.ttf);
+}
+
+@font-face {
+    font-family: 'Tengwar Annatar Bold Italic';
+    src: url(font/tnganbi.ttf);
+}
+
+@font-face {
+    font-family: 'Tengwar Annatar Bold Italic';
+    src: url(font/tnganbi.ttf);
+}
+
+@font-face {
+    font-family: 'Tengwar Annatar Italic';
+    src: url(font/tngan.ttf);
+}
+
+.navbar {
+    font-family: "Aniron Bold";
+}
+
+.bg-orange {
+    background-color: #fd7e14;
+}
+
+.pipe-before::before {
+    content: "|";
+    color: white;
+    margin-right: 15px;
+}
+
+.nav-link.active {
+    text-decoration: underline;
+}
+
+div.carousel-enfant {
+    position: absolute;
+    top: 5px;
+    color: white;
+    font-weight: bold;
+    font-size: 140%;
+    margin-left: 18%;
+    margin-top: 12%;
+    font-family: 'Party Business Regular';
+}
+
+div.carousel-parent:hover .enfant {
+	
+}
+
+div.carousel-enfant h1 {
+    font-size: 4.5rem;
+}
+
+div.carousel-enfant h1 .maj{
+    font-size: 6.5rem;
+}
+
+div.carousel-enfant h2 {
+    font-size: 2.5rem;
+}
+
 .cards-title {
     text-align: center;
     font-weight: bold;
     margin-top: 7vh;
     margin-bottom: 7vh;
+    font-family: 'Aniron Regular';
 }
 
 .span-card-title {
     font-size: 75%;
+    letter-spacing: -2px;
+}
+
+.cards-title h3::before, .cards-title h3::after {
+    content: ' i''j ';
+    font-family: 'Tengwar Annatar bold italic';
+    color: #fd7e14;
+    font-size: 200%;
+    font-variant: super;
 }
 
 .dead {
@@ -24,6 +130,8 @@
     opacity: 0.4;
     
 }
+
+
 
 div.enfant {
     display: none;
