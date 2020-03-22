@@ -115,14 +115,69 @@ div.carousel-enfant h2 {
     font-variant: super;
 }
 
+.card {
+    width: 21rem !important;
+    border: solid 7px black !important;
+}
+
+.card-img-gandalf, .card-img-aragorn {
+    background-color: gray;
+}
+
+.card-img-gandalf img, .card-img-aragorn img {
+    opacity: 0.5;
+}
+
+.card-img-gimli {
+    background-color: black;
+}
+
+.card-img-gimli img {
+    opacity: 0.5;
+}
+
+.card-title-gandalf, .card-title-aragorn, .card-title-gimli {
+    position: absolute;
+    top: 36%;
+    color: white;
+    width: 100%;
+    font-size: 400%;
+    font-family: 'Party Business Regular';
+    text-align: center;
+}
+
+.card-body {
+    background-color: black;
+    color: white;
+    font-family: 'Party Business Regular';
+    padding: 0.5rem !important;
+}
+
+.card-text {
+    font-size: 208%;
+}
+
 .dead {
     position: absolute;
-    top: 20%;
+    top: 9%;
     text-align: center;
     width: 100%;
-    font-size: 300%;
+    font-size: 150%;
     font-weight: bold;
+    color: #fd7e14;
+    font-family: 'Aniron Regular';
+}
 
+.gimli-line-through {
+    font-family: 'Tengwar Annatar italic';
+    color: #fd7e14;
+    position: absolute;
+    top: 46%;
+    font-size: 400%;
+    text-align: center;
+    width: 115%;
+    font-style: italic;
+    opacity: 0.8;
 }
 
 .dead-card {
@@ -131,20 +186,25 @@ div.carousel-enfant h2 {
     
 }
 
-
-
 div.enfant {
     display: none;
     position: absolute;
     top: 5px;
-    width: 100%;
+    width: 88%;
     text-align: center;
-    background-color: darkgray;
-    color: white;
+    background-color: white;
+    color: black;
     font-weight: bold;
     border-radius: 5px;
-    height: 36px;
-    font-size: 140%;
+    height: auto;
+    font-size: 200%;
+    opacity: 0.7;
+    margin: 20px;
+    font-family: 'Party Business Regular';
+}
+
+div.enfant span {
+    color: #fd7e14;
 }
 
 div.parent:hover .enfant {
