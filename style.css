@@ -13,7 +13,6 @@
     src: url(font/AnironcBold-PKwr.ttf);
 }
 
-
 @font-face {
     font-family: 'AnironC Regular';
     src: url(font/Anironc-d9DK.ttf);
@@ -53,6 +52,10 @@
     font-family: "Aniron Bold";
 }
 
+.navbar-nav {
+    margin-left: 20%;
+}
+
 .bg-orange {
     background-color: #fd7e14;
 }
@@ -60,7 +63,7 @@
 .pipe-before::before {
     content: "|";
     color: white;
-    margin-right: 15px;
+    margin-right: 10px;
 }
 
 .nav-link.active {
@@ -78,10 +81,6 @@ div.carousel-enfant {
     font-family: 'Party Business Regular';
 }
 
-div.carousel-parent:hover .enfant {
-	
-}
-
 div.carousel-enfant h1 {
     font-size: 4.5rem;
 }
@@ -97,8 +96,8 @@ div.carousel-enfant h2 {
 .cards-title {
     text-align: center;
     font-weight: bold;
-    margin-top: 7vh;
-    margin-bottom: 7vh;
+    margin-top: 5vh;
+    margin-bottom: 3vh;
     font-family: 'Aniron Regular';
 }
 
@@ -115,14 +114,95 @@ div.carousel-enfant h2 {
     font-variant: super;
 }
 
+.card {
+    width: 21rem !important;
+    border: solid 7px black !important;
+}
+
+.card-img-gandalf, .card-img-aragorn {
+    background-color: gray;
+}
+
+.card-img-gandalf img, .card-img-aragorn img {
+    opacity: 0.5;
+}
+
+.card-img-gimli {
+    background-color: black;
+}
+
+.card-img-gimli img {
+    opacity: 0.5;
+}
+
+.card-title-gandalf, .card-title-aragorn, .card-title-gimli {
+    position: absolute;
+    top: 36%;
+    color: white;
+    width: 100%;
+    font-size: 400%;
+    font-family: 'Party Business Regular';
+    text-align: center;
+}
+
+.card-body {
+    background-color: black;
+    color: white;
+    font-family: 'Party Business Regular';
+    padding: 0.5rem !important;
+}
+
+.card-text {
+    font-size: 208%;
+
+.pills {
+    font-family: 'Aniron Regular';
+    margin-bottom: 3vh !important;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 110%;
+}
+.pills a {
+    color: rgb(75, 74, 74);
+}
+
+.pills .nav-link.active {
+    background-color: white !important;
+    color: #fd7e14 !important;
+    font-weight: bold;
+    text-decoration-thickness: 6px;
+    text-underline-offset: 10px;
+}
+
+.pills .nav-link.active::before, .pills .nav-link.active::after {
+    content: ' b ';
+    font-family: 'Tengwar Annatar bold italic';
+    color: #fd7e14;
+    font-weight: initial;
+}
+
 .dead {
     position: absolute;
-    top: 20%;
+    top: 9%;
     text-align: center;
     width: 100%;
-    font-size: 300%;
+    font-size: 150%;
     font-weight: bold;
+    color: #fd7e14;
+    font-family: 'Aniron Regular';
+}
 
+.gimli-line-through {
+    font-family: 'Tengwar Annatar italic';
+    color: #fd7e14;
+    position: absolute;
+    top: 46%;
+    font-size: 400%;
+    text-align: center;
+    width: 115%;
+    font-style: italic;
+    opacity: 0.8;
 }
 
 .dead-card {
@@ -131,20 +211,25 @@ div.carousel-enfant h2 {
     
 }
 
-
-
 div.enfant {
     display: none;
     position: absolute;
     top: 5px;
-    width: 100%;
+    width: 88%;
     text-align: center;
-    background-color: darkgray;
-    color: white;
+    background-color: white;
+    color: black;
     font-weight: bold;
     border-radius: 5px;
-    height: 36px;
-    font-size: 140%;
+    height: auto;
+    font-size: 200%;
+    opacity: 0.7;
+    margin: 20px;
+    font-family: 'Party Business Regular';
+}
+
+div.enfant span {
+    color: #fd7e14;
 }
 
 div.parent:hover .enfant {
