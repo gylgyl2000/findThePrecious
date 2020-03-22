@@ -13,7 +13,6 @@
     src: url(font/AnironcBold-PKwr.ttf);
 }
 
-
 @font-face {
     font-family: 'AnironC Regular';
     src: url(font/Anironc-d9DK.ttf);
@@ -82,10 +81,6 @@ div.carousel-enfant {
     font-family: 'Party Business Regular';
 }
 
-div.carousel-parent:hover .enfant {
-	
-}
-
 div.carousel-enfant h1 {
     font-size: 4.5rem;
 }
@@ -101,8 +96,8 @@ div.carousel-enfant h2 {
 .cards-title {
     text-align: center;
     font-weight: bold;
-    margin-top: 7vh;
-    margin-bottom: 7vh;
+    margin-top: 5vh;
+    margin-bottom: 3vh;
     font-family: 'Aniron Regular';
 }
 
@@ -117,6 +112,33 @@ div.carousel-enfant h2 {
     color: #fd7e14;
     font-size: 200%;
     font-variant: super;
+}
+
+.pills {
+    font-family: 'Aniron Regular';
+    margin-bottom: 3vh !important;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 110%;
+}
+.pills a {
+    color: rgb(75, 74, 74);
+}
+
+.pills .nav-link.active {
+    background-color: white !important;
+    color: #fd7e14 !important;
+    font-weight: bold;
+    text-decoration-thickness: 6px;
+    text-underline-offset: 10px;
+}
+
+.pills .nav-link.active::before, .pills .nav-link.active::after {
+    content: ' b ';
+    font-family: 'Tengwar Annatar bold italic';
+    color: #fd7e14;
+    font-weight: initial;
 }
 
 .dead {
