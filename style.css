@@ -154,6 +154,7 @@ div.carousel-enfant h2 {
 
 .card-text {
     font-size: 208%;
+}
 
 .pills {
     font-family: 'Aniron Regular';
@@ -163,6 +164,7 @@ div.carousel-enfant h2 {
     margin-right: auto;
     font-size: 110%;
 }
+
 .pills a {
     color: rgb(75, 74, 74);
 }
