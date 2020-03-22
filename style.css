@@ -238,10 +238,89 @@ div.parent:hover .enfant {
 	display:block;
 }
 
-hr {
-    margin-top: 150px !important;
-    border-top: 2px solid black !important;
+.getMyReward hr {
+    width: 50%;
+    height: 4px;
+    background: #fd7e14;
+    transform: skew(-45deg);
 }
+
+.hr-top {
+    margin-top: -35px;
+    margin-bottom: 35px;
+}
+
+.hr-bottom {
+    margin-top: 35px;
+    margin-bottom: -35px;
+}
+
+.reward-title {
+    text-align: left;
+    font-weight: bold;
+    margin-bottom: 3vh;
+    font-family: 'Aniron Regular';
+}
+
+.reward-title h3 {
+    font-size: 1.5rem;
+}
+
+.reward-title h3::before, .reward-title h3::after {
+    content: ' i''j ';
+    font-family: 'Tengwar Annatar bold italic';
+    color: #fd7e14;
+    font-size: 150%;
+    font-variant: super;
+}
+
+.getMyReward {
+    border: solid;
+    background-color: black;
+    color: white;
+    padding: 35px;
+    margin-top: 10vh;
+    text-align: left;
+    font-family: 'Party Business Regular';
+    font-size: 180%;
+}
+
+.reward-line-top {
+    font-family: 'Tengwar Annatar italic';
+    color: #fd7e14;
+    position: absolute;
+    top: 46%;
+    font-size: 400%;
+    text-align: center;
+    width: 115%;
+    font-style: italic;
+    opacity: 0.8;
+}
+
+.getMyReward img {
+    float: right;
+    width: 16vh;
+    margin-top: -20px;
+}
+
+.getMyReward .contact {
+    text-align: center;
+}
+
+.getMyReward .contact-button {
+    background-color: white;
+    color: #fd7e14;
+    font-family: 'AnironC bold';
+    transform: skew(-25deg);
+    font-size: 70%;
+    padding: 10px;
+    width: 20%;
+}
+
+
+
+
+
  
 .contact {
     width: 80vw;
